@@ -8,16 +8,12 @@ import '@/colorfulIcon'
 import '@/config/permission'
 import '@/utils/errorLog'
 import './vabIcon'
+import './custom'
 
 import Vab from '@/utils/vab'
 import VabPermissions from 'zx-layouts/Permissions'
 import VabCount from 'zx-count'
-import VabMixins from '@/mixins'
-import VabLayer from '@/components/VabLayer'
-
-Vue.prototype.$vabLayer = new VabLayer(Vue)
 
 Vue.use(Vab)
 Vue.use(VabPermissions)
 Vue.use(VabCount)
-Vue.mixin(VabMixins) // 注入全局混入

@@ -227,6 +227,7 @@
       handleFilterChange(i) {
         this.columnShowList[i].show = !this.columnShowList[i].show
         this.$nextTick(() => {
+          console.log(this.$refs.tableSort.doLayout)
           this.$refs.tableSort.doLayout() // 重新计算table布局
         })
       },

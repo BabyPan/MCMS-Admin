@@ -29,17 +29,17 @@
           {
             field: 'ConversationTitle',
             label: '标题',
-            span: 8,
+            span: 24,
           },
           {
             field: 'StaffcareTypeText',
             label: '类型',
-            span: 8,
+            span: 24,
           },
           {
             field: 'StaffStatus',
             label: '员工状态',
-            span: 8,
+            span: 24,
             elTag: 'el-rate',
             elAttrs: {
               disabled: true,
@@ -52,42 +52,42 @@
           {
             field: 'ConversationName',
             label: '被谈话人',
-            span: 8,
+            span: 24,
           },
           {
             field: 'DepName',
             label: '所属部门',
-            span: 8,
+            span: 24,
           },
           {
             field: 'StaffcareContent',
             label: '内容',
-            span: 8,
+            span: 24,
           },
           {
             field: 'StaffStatus',
             label: '评分',
-            span: 8,
+            span: 24,
           },
           {
             field: 'Remark',
             label: '评语',
-            span: 8,
+            span: 24,
           },
           {
             field: 'ConversationName',
             label: '谈话人',
-            span: 8,
+            span: 24,
           },
           {
             field: 'ConversationDate',
             label: '谈话日期',
-            span: 8,
+            span: 24,
           },
           {
             field: 'StaffStatus',
             label: '领导评分',
-            span: 8,
+            span: 24,
             elTag: 'el-rate',
             elAttrs: {
               disabled: true,
@@ -100,22 +100,22 @@
           {
             field: 'LeaderUserName',
             label: '领导姓名',
-            span: 8,
+            span: 24,
           },
           {
             field: 'ConversationTitle',
             label: '评价时间',
-            span: 8,
+            span: 24,
           },
           {
             field: 'ConversationName',
             label: '录入人员',
-            span: 8,
+            span: 24,
           },
           {
             field: 'CreateTime',
             label: '录入日期',
-            span: 8,
+            span: 24,
           },
         ],
       }

@@ -126,7 +126,8 @@ for (let i = 0; i < count; i++) {
     StaffName: '吴聪(WN10569)',
     StaffStatus: Score,
     StaffStatusText: '1分',
-    StaffcareContent: '价值观好',
+    StaffcareContent:
+      '价值观好i撒娇的刺激ASJCIJSDICJ i是第几次设计的CIJSI基底层SADJIFI收到v雌激素IDVJISJ第v九四JDVIJSvISDJVIJ四季度vi就是DIVJI十九点v',
     StaffcareType: 3,
     StaffcareTypeText: '直属领导',
     SuperviseNote: null,

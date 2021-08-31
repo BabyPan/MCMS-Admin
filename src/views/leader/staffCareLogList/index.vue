@@ -84,7 +84,7 @@
             label: '谈话日期',
           },
           {
-            prop: 'ScoreText',
+            prop: 'Score',
             label: '评分',
             width: 160,
             render: (h, scope) => {
@@ -103,18 +103,20 @@
             label: '领导评分',
           },
           {
-            prop: 'LeaderUserName',
+            prop: 'StaffName',
             label: '领导姓名',
             show: false,
           },
           {
             prop: 'LeaderScoreTime',
             label: '领导评分时间',
+            width: 360,
             show: false,
           },
           {
             label: '操作',
             fixed: 'right',
+            minWidth: 220,
             width: 220,
             render: (h, scope) => {
               return (
