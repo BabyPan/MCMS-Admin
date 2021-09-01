@@ -28,6 +28,7 @@
   import VabTable from '@/components/VabTable/VabTable'
 
   export default {
+    name: 'StaffList',
     components: {
       VabTable,
     },

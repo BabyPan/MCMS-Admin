@@ -28,6 +28,7 @@
   import StaffCareLogScore from './components/StaffCareLogScore'
 
   export default {
+    name: 'StaffCareLogList',
     components: { VabTable, StaffCareLogDetail, StaffCareLogScore },
     data() {
       return {

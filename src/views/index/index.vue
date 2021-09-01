@@ -325,7 +325,7 @@
   import { getMySaleTurnoverPlanList } from '@/api/table'
 
   export default {
-    name: 'More',
+    name: 'Index',
     components: {
       VabChart,
     },
